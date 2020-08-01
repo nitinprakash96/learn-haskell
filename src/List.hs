@@ -1,3 +1,5 @@
+module List where
+
 import Data.List (group)
 
 {-
@@ -7,7 +9,7 @@ import Data.List (group)
 lastElement :: [a] -> a
 lastElement [] = error "List is empty Jackass!"
 lastElement [x] = x
-lastElement (x : xs) = lastElement xs
+lastElement (_ : xs) = lastElement xs
 
 
 {-
@@ -15,7 +17,7 @@ lastElement (x : xs) = lastElement xs
  -}
 lastButOneElement :: [a] -> a
 lastButOneElement [] = error "List is empty Jackass"
-lastButOneElement [x] = error "List has only one element"
+lastButOneElement [_] = error "List has only one element"
 lastButOneElement [x, _] = x
 lastButOneElement (_ : xs) = lastButOneElement xs
 
@@ -24,7 +26,7 @@ lastButOneElement (_ : xs) = lastButOneElement xs
  - Problem 3: Find the K'th element of a list. The first element in the list is number 1.
  -}
 kthElement :: [a] -> Int -> a
-kthElement [] k = error "List is empty Jackass"
+kthElement [] _ = error "List is empty Jackass"
 kthElement xs k = xs !! (k - 1)
 
 
