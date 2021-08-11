@@ -15,4 +15,5 @@ Example:
     
     -- A list of booleans
     -- Don't do this
+    -- do this
     let b = [True, False, False, True]
