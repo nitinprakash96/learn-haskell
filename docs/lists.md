@@ -1,6 +1,3 @@
----
-
----
 # Haskell Lists: 2 big caveats
 
 There are **_two major differences_** in Haskell lists, compared to other languages, especially dynamically typed languages, like Python, Ruby, PHP, and Javascript.
