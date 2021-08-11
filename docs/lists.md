@@ -14,4 +14,5 @@ Example:
     let a = [1, 5, 7, 12, 56]
     
     -- A list of booleans
+    -- Don't do this
     let b = [True, False, False, True]
