@@ -9,6 +9,11 @@ sections:
   label: docs
   create: all
   match: "**/*"
+- type: directory
+  path: articles
+  label: articles
+  create: all
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
