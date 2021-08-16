@@ -5,11 +5,11 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: docs
+  path: docs/examples
   label: list-docs
   create: all
   match: "**/*"
-  new_doc_ext: yaml
+  new_doc_ext: ".yaml"
 - type: directory
   path: docs
   label: docs
