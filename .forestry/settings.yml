@@ -4,10 +4,12 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: document
-  path: docs/config.yaml
-  label: docs-list
+- type: directory
+  path: ''
+  label: list-docs
+  create: all
   match: "**/*"
+  new_doc_ext: ".yaml"
 - type: directory
   path: docs
   label: docs
