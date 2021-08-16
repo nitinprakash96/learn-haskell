@@ -3,4 +3,5 @@ label: documentation
 hide_body: false
 fields: []
 pages:
+- docs/examples/config.yaml
 - docs/lists.md

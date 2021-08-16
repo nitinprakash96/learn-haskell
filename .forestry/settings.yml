@@ -9,7 +9,7 @@ sections:
   label: list-docs
   create: all
   match: "**/*"
-  new_doc_ext: ".yaml"
+  new_doc_ext: yaml
 - type: directory
   path: docs
   label: docs
